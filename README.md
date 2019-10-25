@@ -5,12 +5,11 @@ Implementing Matrix Multiplication in CPU and GPU (in three different techniques
 This project is the implementation of General Matrix Multiplication(gemm) in CPU and GPU. Input to the program is two matrix files that contains two 32-bit unsigned integers representing the row and column size of the matrix, followed by the matrix elements as 32-bit floating points in column-major order.
 #### Command Line to run the program: 
 `
-
-kernel.cu a.mtx b.mtx c.mtx
-
+kernel.cu a.mtx b.mtx c.mtx      
+`
+`
 where a.mtx and b.mtx are input matrix
       c.mtx is the output matrix
-      
 `
 
 This project contains the following:
