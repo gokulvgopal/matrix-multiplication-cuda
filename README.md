@@ -42,7 +42,7 @@ c. invokeGpuMultiplicationCublas()
 ##### 7. Verify the results of each GPU implementation with CPU implementation by calculating Mean Square Error (MSE)
 verifyMultiplication() - Output matrix from CPU multiplication and GPU multiplication is taken as input and mean square error is printed.
 
-###### 8. Helper functions
+##### 8. Helper functions
 These functions are required to read the matrix in column wise and row wise. These also serve the purpose of changing column major function to row major matrix. Since the input is column major matrix and cublas require row major matrix as input, these functionalities are required to convert the input matrix to row major and output matrix back to column major.
 a. changeMatrixColWise()
 b. changeMatrixRowWise() 
