@@ -6,6 +6,7 @@ This project is the implementation of General Matrix Multiplication(gemm) in CPU
 #### Command Line to run the program: 
 `
 kernel.cu a.mtx b.mtx c.mtx
+
 where a.mtx and b.mtx are input matrix
       c.mtx is the output matrix
 `
